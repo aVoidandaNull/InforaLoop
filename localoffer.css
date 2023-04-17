@@ -1,5 +1,5 @@
 body{
-	background-color: #9993e6;
+background-color: #9993e6;
 }
 
 h1{
@@ -12,6 +12,22 @@ color: white
 p{
 font-family: Arial;
 color: white;
+Font-size: 150%;
+}
+
+label{
+font-family: Arial;
+color: white;
+Font-size: 150%;
+}
+
+input[type="text"]{
+font-family: Arial;
+Font-size: 150%;
+}
+
+input[type="submit"]{
+font-family: Arial;
 Font-size: 150%;
 }
 
@@ -39,6 +55,7 @@ text-align: justify;
 text-justify: inter-word;
 color: white;
 Font-size: 150%;
+font-family: Arial;
 }
 
 div.polaroidsmallleft {
@@ -106,6 +123,19 @@ box-shadow: 0 0 8px 4px rgba(0, 140, 186, 0.5);
 div.txtbordend {
 padding: 2%;
 background-color: c996ee;
+}
+
+div.containerother{
+line-height: 2;
+text-align: center;
+cursor: pointer;
+position: relative;
+margin-bottom: 5%;
+background-color: #c996ee;
+font-weight: bold;
+font-family: Arial;
+color: white;
+Font-size: 150%;
 }
 
  --------------
